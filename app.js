@@ -4,7 +4,7 @@ const port = process.env.PORT || 3001;
 
 // Define a route for the homepage
 app.get('/', (req, res) => {
-  res.send('Hello, World! This is my first Node.js web application.');
+  res.send('Hello, World!  Node.js web application.');
 });
 
 // Start the server
